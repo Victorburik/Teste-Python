@@ -1,13 +1,13 @@
 /*2-a)*/
 
 SELECT a.id, a.valor, a.item , b.id, b.nome
-FROM compra as A
-LEFT JOIN useer as B
+FROM compras as A
+LEFT JOIN usuario as B
 on a.id = b.id
 
 /* 2-b*/
 
 SELECT a.id, a.valor, a.item , b.id, b.nome
-FROM compra as A
-FULL OUTER JOIN useer as B
+FROM compras as A
+FULL OUTER JOIN usuario as B
 on a.id = b.id
